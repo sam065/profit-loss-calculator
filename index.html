@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit and Loss Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Input, Quantity of Stocks, Current Price -->
+    <header>
+        <h1> Profit and Loss</h1>
+    </header>
+
+
+    <main>
+        <label class="input-label" for="initial-price">
+            Initial Price
+            <input type="number" min="0"
+            class="input" 
+            placeholder="Enter the initial price of Stocks" 
+            id = "initial-price"
+            />
+        </label>
+
+
+        <label class="input-label" for="stocks-quantity">
+             Quantity of Stocks
+              <input type="number" min="0"
+               class="input"
+               placeholder="Enter the number of Stocks bought"
+               id = "stocks-quantity"
+               />
+        </label>
+
+
+        <label class="input-label" for="current-price">
+            Current Price
+            <input type="number" min="0"
+            class="input"
+            placeholder="Enter the current price of the Stocks"
+             id = "current-price" />
+        </label>
+
+        <!-- Button -->
+        <button id="submit-btn" class="button-check">Calculate </button>
+
+        <!-- Output Box -->
+        <div id="output-box" class="output"> </div>
+    </main>
+
+
+    <footer>
+        <p>|<a href="">Samadrita Ghosh</a>|2022|</p>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
